@@ -9,7 +9,7 @@ env:
 
 on:
   pull_request:
-    types: [opened, synchronize]
+    branches: [main]
 
 jobs:
   linter:
@@ -34,7 +34,7 @@ jobs:
       - uses: actions/checkout@v3
       - uses: actions/setup-node@v3
         with:
-          node-version: 16.13.0
+          node-version: 20.9.0
           cache: 'yarn'
       # https://docs.cypress.io/guides/continuous-integration/github-actions#Testing-in-Chrome-and-Firefox-with-Cypress-Docker-Images
       - name: Cypress
