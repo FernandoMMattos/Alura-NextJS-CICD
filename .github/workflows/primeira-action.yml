@@ -1,4 +1,4 @@
-name: "CI (integracao Continua): First Action"
+name: "CICD (Integracao Continua e Entrega Continua): First Action"
 
 on:
   push:
