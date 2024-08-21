@@ -1,7 +1,8 @@
-export default function SobreScreen() {
-  return (
-    <div>
-      <h1>Sobre</h1>
-    </div>
-  );
+export default function AboutScreen() {
+return (
+
+<div>
+<h1>Sobre</h1>
+</div>
+);
 }
